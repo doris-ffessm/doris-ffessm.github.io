@@ -20,9 +20,9 @@ test:
 pages:
   stage: deploy
   script:
-  - bundle exec jekyll build -d _site
+  - bundle exec jekyll build -d public
   artifacts:
     paths:
-    - _site
+    - public
   only:
   - master
