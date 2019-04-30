@@ -5,6 +5,7 @@ variables:
   LC_ALL: C.UTF-8
 
 before_script:
+  - gem update --system
   - bundle install
 
 test:
