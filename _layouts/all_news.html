@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body id="page-top">
+  {% include nav.html %}
+  
+	<section id="all_news">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2 text-center">
+				    <h2 class="section-heading">Toutes les nouvelles de l'application DorisAndroid</h2>
+				    <hr class="primary">
+				    <!-- <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>-->
+				</div>
+	          	<div class="col-lg-8 col-lg-offset-2 text-center">
+					<p class="feed-subscribe">
+						<a href="{{ "/feed.xml" | relative_url }}">
+							<span style="color: Black;"><i class="fa fa-rss fa-1x wow bounceIn" data-wow-delay=".1s"></i></span> S'abonner au flux RSS
+						</a>
+					</p>  
+				</div>
+	          
+				{%- if site.posts.size > 0 -%}
+				<div class="col-lg-8 col-lg-offset-2 text-left">
+				  {%- if page.list_title -%}
+				    <h2 class="post-list-heading">{{ page.list_title }}</h2>
+				  {%- endif -%}
+				  <ul class="post-list">
+				    {%- for post in site.posts -%}
+				    <li>
+				      {%- assign date_format = site.minima.date_format | default: "%d/%m/%Y" -%}
+				      <span class="post-meta">{{ post.date | date: date_format }}</span>
+				      <h3>
+				        <a class="post-link" href="{{ post.url | relative_url }}">
+				          {{ post.title | escape }}
+				        </a>
+				      </h3>
+				      {{ post.content }}				      
+				    </li>
+				    {%- endfor -%}
+				  </ul>
+				</div>
+				{%- endif -%}
+				
+			</div>
+	    </div>
+	</section>
+  
+  
+  {% include scripts.html %}
+</body>
+
+</html>

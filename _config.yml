@@ -25,6 +25,9 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
+timezone: Europe/Paris
+show_excerpts: true # Show excerpts of posts on the home page
+
 collections:
   - features
 
