@@ -106,6 +106,16 @@ aside {
                     }
                 }
             }
+	    &.dropdown {
+                > a,
+                > a:focus {
+                    color: $theme-primary !important;
+                    background-color: transparent;
+                    &:hover {
+                        background-color: transparent;
+                    }
+                }
+            }
         }
     }
     @media (min-width: 768px) {
@@ -203,6 +213,13 @@ header {
             }
         }
     }
+}
+
+// internal page  Header
+
+.internal-page {
+  background-image: url('../img/header_1.jpg');
+  min-height: 3.5em;
 }
 
 // Sections
