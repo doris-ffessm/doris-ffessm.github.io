@@ -1,8 +1,12 @@
 ---
+layout: page
 title: "Comptez vous faire cette application pour les IPhone ? (Windows phone, Blackberry ....)"
 ---
 
 C'est en cours pour IOs grace au travail de Sébastien Galvagno. Néanmoins il n'a pas fini car il est lui aussi bénévole. N'hésitez pas à lui envoyer un message d'encouragement sur la liste.
+
+
+<!--more-->
 
 Note:
 c'est une tâche assez ardue car bien que voulant satisfaire un maximum d'utilisateurs, créer une version pour IOS (ou pour les Windows phone, Blacberry, ...) impliquerai de recommencer le developpement spécifiquement pour cette plateforme et de posséder au moins un équipement de chaque type pour pouvoir le tester correctement (de plus, pour IOS il faut nécessairement posséder un Mac pour pouvoir développer :-( ).

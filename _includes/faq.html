@@ -11,9 +11,11 @@
         <div class="row">
 {% for faq in site.faqs %}
 			<div class="col-lg-8 col-lg-offset-2 text-left">
-                
-                    <h3>{{ faq.title }}</h3>
-                    <p class="text-muted">{{ faq.content | markdownify }}</p>
+                	<h3><a href="{{ faq.url }}">{{ faq.title }}</a></h3>
+                    {% assign excerpt = faq.content | markdownify | split: site.excerpt_separator  %}
+					{{ excerpt[0] }}
+					<span style="float: right;"><a href="{{ faq | relative_url }}" class="btn btn-primary btn-xs page-scroll">En savoir plus</a></span>                    
+					<a href="{{ faq.url }}">[...]</a> 
                 
             </div>
 {% endfor %}

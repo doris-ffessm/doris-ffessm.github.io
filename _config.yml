@@ -27,8 +27,9 @@ timezone: Europe/Paris
 show_excerpts: true # Show excerpts of posts on the home page
 
 collections:
-  - features
-  - faqs
+   features:
+   faqs:
+      output: true
 
 
 
