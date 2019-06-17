@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Nouvelle version DorisAndroid (4.7)"
-date:   2019-06-18 10:05:02 +0200
+date:   2019-06-18 00:05:02 +0200
 categories: android
 ---
 La version 4.7 de DorisAndroid est disponible sur le play store. 
@@ -19,3 +19,4 @@ Elle apporte les améliorations suivantes:
 
 Liste complète des issues corrigées: [VersionCode 68](https://gitlab.inria.fr/groups/doris/-/issues?scope=all&utf8=%E2%9C%93&state=all&milestone_title=VersionCode%2068%20sur%20GooglePlay)
 
+ 
