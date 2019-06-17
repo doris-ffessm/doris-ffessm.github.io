@@ -15,7 +15,7 @@ Elle apporte les améliorations suivantes:
 - Correction place utilisée pouvant être négative ([#139](https://gitlab.inria.fr/doris/doris-android/issues/139))
 - Corrections mineures ([#127](https://gitlab.inria.fr/doris/doris-android/issues/127))
 
-- Mise à jour de la base (dont 8 nouvelles fiches)
+- Mise à jour de la base (dont 9 nouvelles fiches complétes et plusieurs nouvelles fiches en préparation)
 
 Liste complète des issues corrigées: [VersionCode 68](https://gitlab.inria.fr/groups/doris/-/issues?scope=all&utf8=%E2%9C%93&state=all&milestone_title=VersionCode%2068%20sur%20GooglePlay)
 
