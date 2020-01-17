@@ -18,4 +18,4 @@ Nous avons bien connaissances d'outils tels que Cordova ou Mobl pour tenter de c
 1. ces techno n'étaient pas assez matures au moment où l'on a commencé les développements, et
 2. certaines fonctionnalités nécessitent une intégration fine avec l'appareil. Ce qui n'est pas garanti avec ces approches issues du web (en particulier les fonctions de recherche hors ligne, volumétrie des fichiers images à rappatrier et organiser en tache de fond, interface conforme aux recommandations de l'OS, ...) 
 
-De plus, la politique de tarification d'Apple pour les développeurs n'est pas trés favorable pour les développement bénévoles.  
+De plus, la politique de tarification d'Apple pour les développeurs n'est pas trés favorable pour les développements bénévoles.  
