@@ -4,7 +4,7 @@ title:  "Nouvelle version DorisAndroid (4.7.1)"
 date:   2019-08-26 00:05:02 +0200
 categories: android
 ---
-La version 4.7.1 de DorisAndroid est disponible sur le play store opur les béta testeurs. 
+La version 4.7.1 de DorisAndroid est disponible sur le play store. 
 Elle apporte les améliorations suivantes:
 
 - Adaptations de l'appli android suite à la migration du site web en https.
