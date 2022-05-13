@@ -3,7 +3,8 @@ layout: page
 title: "Comptez vous faire cette application pour les IPhone ? (Windows phone, Blackberry ....)"
 ---
 
-C'est en cours pour IOs grace au travail de Sébastien Galvagno. Néanmoins il n'a pas fini car il est lui aussi bénévole. N'hésitez pas à lui envoyer un message d'encouragement sur la liste.
+Il y a eu une tentative pour IOs via le travail de Sébastien Galvagno. Néanmoins, il ne l'a 
+jamais fini car il est lui aussi bénévole. N'hésitez pas à lui envoyer un message d'encouragement sur la liste.
 
 
 <!--more-->
