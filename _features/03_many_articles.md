@@ -1,5 +1,5 @@
 ---
-title: plus de 2500 fiches complètes
+title: Environ 3000 fiches complètes
 image: <i class="material-icons md-48 wow bounceIn text-primary">trending_up</i>
 ---
 La base contient plus de 2990 fiches complètes (faune, flore) y compris des mamifères marins et oiseaux.
