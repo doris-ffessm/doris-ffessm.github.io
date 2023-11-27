@@ -16,6 +16,8 @@
 title: Doris Android
 email: doris4android@gmail.com
 developers_email: doris-android-developers@lists.gforge.inria.fr 
+discussion_url: https://github.com/doris-ffessm/doris-android/discussions
+git_url: https://github.com/doris-ffessm/doris-android
 description: >- # this means to ignore newlines until "baseurl:"
   Votre guide sous-marin illustré à emporter sur votre mobile.
 baseurl: "" # the subpath of your site, e.g. /blog

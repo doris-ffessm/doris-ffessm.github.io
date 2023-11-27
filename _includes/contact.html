@@ -14,16 +14,22 @@
 	            </a>
 	        </div>
 	        <div class="col-lg-2 col-lg-offset-1 text-center">
-	            <a href="mailto:{{ site.developers_email }}">
+	            <a href="{{ site.discussion_url }}">
 	            <i class="fa fa-github fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-	                <p>{{ site.developers_email }}</p>
+	                <p>Forum et discussions: {{ site.discussion_url }}</p>
 	            </a>
 	        </div>
 
 	        <div class="col-lg-2 col-lg-offset-1 text-center">
-	            <a href="https://gitlab.inria.fr/doris/doris-android/issues">
+	            <a href="https://github.com/doris-ffessm/doris-android/issues">
 	            <i class="fa fa-bug fa-3x wow bounceIn" data-wow-delay=".1s"></i>
 	                <p>Signaler un bug directement sur notre tracker (ou bien connaitre l'avancée des développements)</p>
+	            </a>
+	        </div>
+	        <div class="col-lg-2 col-lg-offset-1 text-center">
+	            <a href="mailto:{{ site.git_url }}">
+	            <i class="fa fa-git fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+	                <p>Code source de l'application: {{ site.git_url }}</p>
 	            </a>
 	        </div>
     	</div>
