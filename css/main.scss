@@ -44,8 +44,8 @@ $theme-light: #FDFDFD;
         "base"
 ;
 
-.navbar-default .nav > li.active > a.nav_inner_page_text {
-        color: $theme-light !important;
+.navbar-default .nav > li > a.nav_inner_page_text {
+        //color: $theme-light !important;
         background-color: transparent !important;
         text-shadow: 1px 1px 2px $theme-dark, 0 0 1px $theme-primary;
 }
