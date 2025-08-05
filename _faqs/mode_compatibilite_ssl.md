@@ -3,7 +3,7 @@ layout: page
 title: "Pourquoi sur certains anciens appareils la vue à propos indique: Mode de compatibité SSL activé ?"
 ---
 
-Pour afficher les images de doris.ffessm.fr sur ces appareils plus anciens (Android Nougat ou antérieur), un mode de compatibilité est utilisé pour télécharger les imagesen raison d'une limitation de leur système d'exploitation.
+Pour afficher les images de doris.ffessm.fr sur ces appareils plus anciens (Android Nougat ou antérieur), un mode de compatibilité est utilisé pour télécharger les images en raison d'une limitation de leur système d'exploitation.
 
 
 <!--more-->
@@ -16,7 +16,7 @@ Pour afficher les images de doris.ffessm.fr sur ces appareils plus anciens (Andr
 
 Ceci est dû à l'évolution des standards de sécurité sur internet et à la manière dont les certificats SSL/TLS, qui sécurisent la connexion entre votre appareil et les serveurs, sont validés. Plus précisément, certains certificats racines nécessaires pour valider la chaîne de confiance des certificats modernes (comme ceux émis par l'autorité de certification Let's Encrypt, largement utilisée) ne sont plus présents ou ne sont plus mis à jour sur ces systèmes d'exploitation vieillissants.
 
-Fin septembre 2021, un certificat racine important de Let's Encrypt (DST Root CA X3) a expiré. Bien que Let's Encrypt ait mis en place des solutions pour la majorité des systèmes, les appareils Android très anciens qui n'ont pas reçu de mises à jour de leur liste de certificats de confiance peuvent ne plus reconnaître la validité des nouveaux certificats émis pour des sites comme httpsis://doris.ffessm.fr.Pour en savoir plus sur ce problème spécifique avec Let's Encrypt et les anciens appareils, vous pouvez consulter (en anglais) : [L'annonce de Let's Encrypt](https://letsencrypt.org/docs/dst-root-ca-x3-expiration-september-2021/)
+Fin septembre 2021, un certificat racine important de Let's Encrypt (DST Root CA X3) a expiré. Bien que Let's Encrypt ait mis en place des solutions pour la majorité des systèmes, les appareils Android très anciens qui n'ont pas reçu de mises à jour de leur liste de certificats de confiance peuvent ne plus reconnaître la validité des nouveaux certificats émis pour des sites comme https://doris.ffessm.fr. Pour en savoir plus sur ce problème spécifique avec Let's Encrypt et les anciens appareils, vous pouvez consulter (en anglais) : [L'annonce de Let's Encrypt](https://letsencrypt.org/docs/dst-root-ca-x3-expiration-september-2021/)
 
 
 
