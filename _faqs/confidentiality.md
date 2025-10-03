@@ -13,6 +13,6 @@ De plus, l'application DorisAndroid ne collecte aucune donnée et respecte donc 
 
 Même si nous avons mis le plus grand soin dans la réalisation de l'application, nous ne pourrions être mis en cause en cas de dommage induits par l'utilisation de l'application. De même, les participants Doris ne pourraient être tenu pour responsable en cas d'erreur dans les données.
 
-En cas de problème, vous êtes invités à contribuer et remonter les erreurs via le [gestionnaire de bug](https://gitlab.inria.fr/doris/doris-android/issues). Nous nous efforcerons d'y remédier. 
+En cas de problème, vous êtes invités à contribuer et remonter les erreurs via le [gestionnaire de bug](https://github.com/doris-ffessm/doris-android/issues) ou le [forum](https://github.com/doris-ffessm/doris-android/discussions). Nous nous efforcerons d'y remédier. 
 De même, lors d'un crash de l'application, celle-ci vous invitera à envoyer un email contenant les traces d'exécution de l'application (si vous le souhaitez). Ces traces, ne contiennent pas d'information personnelles et servent uniquement à nous aider à reproduire le problème.
  
