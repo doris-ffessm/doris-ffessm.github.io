@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Doris Android
+title: Doris Pocket (Android et IOS)
 email: doris4android@gmail.com
 developers_email: doris-android-developers@lists.gforge.inria.fr 
 discussion_url: https://github.com/doris-ffessm/doris-android/discussions
